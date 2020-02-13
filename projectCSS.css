@@ -1,0 +1,63 @@
+body{
+	background-image: url(https://www.gizbot.com/img/2019/12/xhere-s-how-to-book-train-tickets-with-irctc-pay-later-service-1577433557.jpg.pagespeed.ic.V456120NnJ.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	/*background-color: pink;*/
+}
+.post {
+  /*background-color: lightgrey;*/
+  width: 300px;
+  /*text-align: center;*/
+  background-color: white;
+  background-repeat: none;
+  border: 2px solid black;
+  padding:20 px;
+  margin: 20px;
+}
+.post label{
+    display: block;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: -10px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.post label span {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 100;
+    position: relative;
+    top: -15px;
+}
+.post img {
+    display: block;
+    margin: auto auto 10px;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+}
+input[type="text"]{
+	margin-left:10px;
+	width:280px;
+	height:20px;
+	margin-bottom: 20px;
+}
+label[for="select-choice"]{
+	font-size: 15px;
+	text-align: left;
+}
+input[type="submit"]{
+	background-color: blue;
+	border-color: pink;
+	color:white;
+	text-align: center;
+	margin-left:10px;
+	width:280px;
+	height:20px;
+	margin-bottom: 20px;
+}
+input[type="submit"]:hover {
+background-color: #00008b;
+}
